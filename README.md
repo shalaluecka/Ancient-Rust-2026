@@ -51,7 +51,7 @@ This utility operates completely outside of the game process as an isolated over
 | 📹 OBS Recording Bypass | **Yes** |
 | 🖥️ Supported Game Modes | **Borderless** |
 | ⚙️ Supported Processors | **Intel, AMD** |
-| 💻 Supported Systems | **Windows 10 (1903+)**<br>**Windows 11 (All versions)**<br>⚠️ *24H2 and 25H2 are supported only on AMD processors.* |
+| 💻 Supported Systems | **Windows 10 (1903+)**<br>**Windows 11 (All versions)**<br> |
 
 ---
 
