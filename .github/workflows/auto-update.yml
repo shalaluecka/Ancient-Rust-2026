@@ -1,0 +1,54 @@
+name: Auto Update Repository
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Каждые 30 минут
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # ============================
+      # Здесь выполняются ваши команды
+      # ============================
+      - name: Run update
+        run: |
+          echo "Updating repository..."
+          
+          # Пример:
+          # python update.py
+          # npm install
+          # npm run build
+          # ./update.sh
+
+      - name: Commit changes
+        run: |
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git commit -m "Auto update ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
+      - name: Push changes
+        run: |
+          git push origin HEAD
