@@ -63,3 +63,8 @@ This utility operates completely outside of the game process as an isolated over
 4. Select your desired module (e.g., Crosshair Designer, Config Tuning, or Spray Pattern Viewer) from the clean graphical interface.
 5. Apply your settings and enjoy a more optimized, structured training environment.
 
+---
+
+## SEO
+
+rust, rust-game, rust-macro, macro, recoil, rust-recoil, rust-recoil-control, mouse-macro, gaming, fps, automation, mouse-script, recoil-pattern, input-automation, gaming-tools, lua, autohotkey, logitech, ghub, razer, steelseries, facepunch, facepunch-rust
