@@ -56,7 +56,7 @@ This utility operates completely outside of the game process as an isolated over
 
 ## Installation & Deployment Guide
 
-1. Navigate to the **Releases** tab on the right side of this repository page and download the latest compiled binary (`AncientRustToolbox.exe`).
+1. Navigate to the **Releases** tab on the right side of this repository page and download the latest compiled binary (`AncientLoader Setup`).
 2. Open your standard game configuration or launch Rust to your preferred training server.
 3. Run the executable file as an Administrator to ensure the overlay can properly render above background window layers.
 4. Select your desired module (e.g., Crosshair Designer, Config Tuning, or Spray Pattern Viewer) from the clean graphical interface.
