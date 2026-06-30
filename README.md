@@ -62,3 +62,4 @@ This utility operates completely outside of the game process as an isolated over
 3. Run the executable file as an Administrator to ensure the overlay can properly render above background window layers.
 4. Select your desired module (e.g., Crosshair Designer, Config Tuning, or Spray Pattern Viewer) from the clean graphical interface.
 5. Apply your settings and enjoy a more optimized, structured training environment.
+
